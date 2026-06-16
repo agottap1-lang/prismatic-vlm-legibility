@@ -1,0 +1,25 @@
+{
+  "run_id": "175c5fab-6f10-4745-a01a-fd5fda64e191",
+  "video_id": "amb_r_block",
+  "start_time": "2026-02-03T00:11:47.102373Z",
+  "end_time": "2026-02-03T00:11:53.413654Z",
+  "duration_seconds": 6.311281,
+  "git_commit": "874c5bbff52b248294a3ab97006491a7faa698e6",
+  "git_dirty": true,
+  "model_path": "prism-dinosiglip+7b",
+  "evaluation_mode": "single_frame",
+  "sample_rate_seconds": 1.0,
+  "frames_evaluated": 3,
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "max_new_tokens": 256
+  },
+  "model_info": {
+    "model_path": "prism-dinosiglip+7b",
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "vision_backbone": "DinoSigLIPViTBackbone",
+    "llm_backbone": "LLaMa2LLMBackbone"
+  }
+}

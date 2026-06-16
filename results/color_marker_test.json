@@ -1,0 +1,108 @@
+{
+  "test_config": {
+    "method": "color_markers",
+    "layout": "horizontal",
+    "n_frames": 6,
+    "timestamps": [
+      3,
+      5,
+      7,
+      9
+    ]
+  },
+  "results": [
+    {
+      "video_id": "le_r_block",
+      "timestamp": 3,
+      "ground_truth": "B",
+      "predicted": "A",
+      "correct": false,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 5,
+      "ground_truth": "B",
+      "predicted": "A",
+      "correct": false,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 7,
+      "ground_truth": "B",
+      "predicted": "A",
+      "correct": false,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 9,
+      "ground_truth": "B",
+      "predicted": "A",
+      "correct": false,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 3,
+      "ground_truth": "A",
+      "predicted": "A",
+      "correct": true,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 5,
+      "ground_truth": "A",
+      "predicted": "A",
+      "correct": true,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 7,
+      "ground_truth": "A",
+      "predicted": "A",
+      "correct": true,
+      "pA": 0.7,
+      "pB": 0.01,
+      "cue": "robot gripper approaching BLUE region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 9,
+      "ground_truth": "A",
+      "predicted": "A",
+      "correct": true,
+      "pA": 0.75,
+      "pB": 0.25,
+      "cue": "robot trajectory approaching RED region",
+      "legible": "legible_now"
+    }
+  ],
+  "summary": {
+    "accuracy": 0.5,
+    "correct": 4,
+    "total": 8
+  }
+}

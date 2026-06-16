@@ -1,0 +1,53 @@
+{
+  "strategy": "simple",
+  "video": "../videos/le r block.mp4",
+  "ground_truth": "B",
+  "checkpoints": [
+    3.0,
+    5.0,
+    7.0
+  ],
+  "results": [
+    {
+      "predicted_goal": "A",
+      "confidence": 80,
+      "reasoning": "The robot is moving towards the left block, as it is closer to the initial position.",
+      "raw_response": "**Example:**\n```json\n{\n    \"predicted_goal\": \"A\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot is moving towards the left block, as it is closer to the initial position.\"\n}\n```",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 3.0,
+      "ground_truth": "B",
+      "correct": false,
+      "strategy": "simple",
+      "n_frames": 6
+    },
+    {
+      "predicted_goal": "A",
+      "confidence": 80,
+      "reasoning": "The robot is moving towards the left block, as it is closer to the initial position.",
+      "raw_response": "**Example:**\n```json\n{\n    \"predicted_goal\": \"A\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot is moving towards the left block, as it is closer to the initial position.\"\n}\n```",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 5.0,
+      "ground_truth": "B",
+      "correct": false,
+      "strategy": "simple",
+      "n_frames": 6
+    },
+    {
+      "predicted_goal": "A",
+      "confidence": 80,
+      "reasoning": "The robot is moving towards the left block, as it is the first goal it encounters.",
+      "raw_response": "**Example:**\n```json\n{\n    \"predicted_goal\": \"A\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot is moving towards the left block, as it is the first goal it encounters.\"\n}\n```",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 7.0,
+      "ground_truth": "B",
+      "correct": false,
+      "strategy": "simple",
+      "n_frames": 6
+    }
+  ],
+  "summary": {
+    "accuracy": 0.0,
+    "correct": 0,
+    "total": 3
+  }
+}

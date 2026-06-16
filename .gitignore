@@ -147,3 +147,29 @@ dmypy.json
 # Caches and Datasets
 cache/
 data/
+
+# ── Added for safe publishing ──────────────────────────────
+# Secrets — NEVER commit
+.env
+*.env
+!.env.example
+*.key
+credentials*.json
+# Python envs / caches
+.venv/
+venv/
+__pycache__/
+*.pyc
+# Model weights & big artifacts
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+# Media / bulky outputs
+*.mp4
+*.avi
+# Bulky generated frames/data (185MB) — keep code & summary results, drop image dumps
+**/frames/
+scripts/additional-datasets/frames/
+outputs/images/
+*.npz

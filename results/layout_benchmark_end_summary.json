@@ -1,0 +1,17 @@
+{
+  "horizontal": {
+    "correct": 4,
+    "incorrect": 3,
+    "uncertain": 1
+  },
+  "grid": {
+    "correct": 4,
+    "incorrect": 3,
+    "uncertain": 1
+  },
+  "vertical": {
+    "correct": 4,
+    "incorrect": 3,
+    "uncertain": 1
+  }
+}

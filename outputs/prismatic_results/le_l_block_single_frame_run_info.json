@@ -1,0 +1,25 @@
+{
+  "run_id": "b69a4586-9456-4183-95e9-0e246b835933",
+  "video_id": "le_l_block",
+  "start_time": "2026-02-03T00:02:05.374992Z",
+  "end_time": "2026-02-03T00:02:34.502522Z",
+  "duration_seconds": 29.12753,
+  "git_commit": "874c5bbff52b248294a3ab97006491a7faa698e6",
+  "git_dirty": true,
+  "model_path": "prism-dinosiglip+7b",
+  "evaluation_mode": "single_frame",
+  "sample_rate_seconds": 1.0,
+  "frames_evaluated": 15,
+  "generation_config": {
+    "do_sample": false,
+    "temperature": 1.0,
+    "max_new_tokens": 256
+  },
+  "model_info": {
+    "model_path": "prism-dinosiglip+7b",
+    "device": "cuda",
+    "dtype": "torch.bfloat16",
+    "vision_backbone": "DinoSigLIPViTBackbone",
+    "llm_backbone": "LLaMa2LLMBackbone"
+  }
+}

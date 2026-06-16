@@ -1,0 +1,15 @@
+[
+  {
+    "video_id": "le_r_block",
+    "t": 5,
+    "pA": 0.667,
+    "pB": 0.35,
+    "choice": "A",
+    "confidence": 0.667,
+    "cue": "gripper aligned with right block",
+    "legible": "not_legible_yet",
+    "ground_truth": "B",
+    "correct": false,
+    "vlm_raw": "{\"pA\": 0.667, \"pB\": 0.35, \"cue\": \"gripper aligned with right block\", \"legible\": \"not_legible_yet\"}"
+  }
+]

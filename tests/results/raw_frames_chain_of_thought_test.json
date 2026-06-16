@@ -1,0 +1,56 @@
+{
+  "strategy": "chain_of_thought",
+  "video": "../videos/le r block.mp4",
+  "ground_truth": "B",
+  "checkpoints": [
+    3.0,
+    5.0,
+    7.0
+  ],
+  "results": [
+    {
+      "predicted_goal": "B",
+      "confidence": 80,
+      "reasoning": "The robot arm moved forward in a straight line towards the right block (Goal B).",
+      "raw_response": "---\n\n**Example Input:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with the gripper open.\",\n        \"Frame 2: The robot arm is extended forward with the gripper open.\",\n        \"Frame 3: The robot arm is extended forward with the gripper open.\",\n        \"Frame 4: The robot arm is extended forward with the gripper open.\",\n        \"Frame 5: The robot arm is extended forward with the gripper open.\",\n        \"Frame 6: The robot arm is extended forward with the gripper open.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"B\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the right block (Goal B).\"\n}\n```\n**Example Output:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with the gripper open.\",\n        \"Frame 2: The robot arm is extended forward with the gripper open.\",\n        \"Frame 3: The robot arm is extended forward with the gripper open.\",\n        \"Frame 4: The robot arm is extended forward with the gripper open.\",\n        \"Frame 5: The robot arm is extended forward with the gripper open.\",\n        \"Frame 6: The robot arm is extended forward with the gripper open.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"B\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the right block (Goal B).\"\n}\n```",
+      "trajectory_summary": "The robot arm moved forward in a straight line.",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 3.0,
+      "ground_truth": "B",
+      "correct": true,
+      "strategy": "chain_of_thought",
+      "n_frames": 6
+    },
+    {
+      "predicted_goal": "A",
+      "confidence": 80,
+      "reasoning": "The robot arm moved forward in a straight line towards the left block, which was the only visible goal region.",
+      "raw_response": "---\n\n**Example Input:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 2: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 3: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 4: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 5: The robot arm is extended forward with a gripper near the right block.\",\n        \"Frame 6: The robot arm is extended forward with a gripper near the right block.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"A\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the left block, which was the only visible goal region.\"\n}\n```\n**Example Output:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 2: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 3: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 4: The robot arm is extended forward with a gripper near the left block.\",\n        \"Frame 5: The robot arm is extended forward with a gripper near the right block.\",\n        \"Frame 6: The robot arm is extended forward with a gripper near the right block.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"A\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the left block, which was the only visible goal region. The robot arm moved forward in a straight line towards the right block, which was not visible. Therefore, the predicted goal is A.\"\n}\n```",
+      "trajectory_summary": "The robot arm moved forward in a straight line.",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 5.0,
+      "ground_truth": "B",
+      "correct": false,
+      "strategy": "chain_of_thought",
+      "n_frames": 6
+    },
+    {
+      "predicted_goal": "B",
+      "confidence": 80,
+      "reasoning": "The robot arm moved forward in a straight line towards the right block (Goal B).",
+      "raw_response": "---\n\n**Example Input:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with the gripper open.\",\n        \"Frame 2: The robot arm is extended forward with the gripper open.\",\n        \"Frame 3: The robot arm is extended forward with the gripper open.\",\n        \"Frame 4: The robot arm is extended forward with the gripper open.\",\n        \"Frame 5: The robot arm is extended forward with the gripper open.\",\n        \"Frame 6: The robot arm is extended forward with the gripper open.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"B\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the right block (Goal B).\"\n}\n```\n**Example Output:**\n```json\n{\n    \"frame_descriptions\": [\n        \"Frame 1: The robot arm is extended forward with the gripper open.\",\n        \"Frame 2: The robot arm is extended forward with the gripper open.\",\n        \"Frame 3: The robot arm is extended forward with the gripper open.\",\n        \"Frame 4: The robot arm is extended forward with the gripper open.\",\n        \"Frame 5: The robot arm is extended forward with the gripper open.\",\n        \"Frame 6: The robot arm is extended forward with the gripper open.\"\n    ],\n    \"motion_observations\": [\n        \"Frame 1\u21922: The robot arm moved forward.\",\n        \"Frame 2\u21923: The robot arm moved forward.\",\n        \"Frame 3\u21924: The robot arm moved forward.\",\n        \"Frame 4\u21925: The robot arm moved forward.\",\n        \"Frame 5\u21926: The robot arm moved forward.\"\n    ],\n    \"trajectory_summary\": \"The robot arm moved forward in a straight line.\",\n    \"predicted_goal\": \"B\",\n    \"confidence\": 80,\n    \"reasoning\": \"The robot arm moved forward in a straight line towards the right block (Goal B).\"\n}\n```",
+      "trajectory_summary": "The robot arm moved forward in a straight line.",
+      "video_path": "../videos/le r block.mp4",
+      "checkpoint_time": 7.0,
+      "ground_truth": "B",
+      "correct": true,
+      "strategy": "chain_of_thought",
+      "n_frames": 6
+    }
+  ],
+  "summary": {
+    "accuracy": 0.6666666666666666,
+    "correct": 2,
+    "total": 3
+  }
+}

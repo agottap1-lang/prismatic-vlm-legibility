@@ -1,0 +1,389 @@
+{
+  "video_id": "le_r_block",
+  "ground_truth": "B",
+  "per_layout_results": {
+    "horizontal": [
+      {
+        "t": 0,
+        "pA": 0.667,
+        "pB": 0.35,
+        "choice": "A",
+        "confidence": 0.667,
+        "cue": "gripper aligned with right block",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 1,
+        "pA": 0.68,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.68,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 2,
+        "pA": 0.7,
+        "pB": 0.5,
+        "choice": "A",
+        "confidence": 0.7,
+        "cue": "",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 3,
+        "pA": 0.7,
+        "pB": 0.5,
+        "choice": "A",
+        "confidence": 0.7,
+        "cue": "",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 4,
+        "pA": 0.7,
+        "pB": 0.0,
+        "choice": "A",
+        "confidence": 0.7,
+        "cue": "gripper aligned with right block",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 5,
+        "pA": 0.667,
+        "pB": 0.35,
+        "choice": "A",
+        "confidence": 0.667,
+        "cue": "gripper aligned with right block",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 6,
+        "pA": 0.64,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.64,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 7,
+        "pA": 0.64,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.64,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 8,
+        "pA": 0.7,
+        "pB": 0.5,
+        "choice": "A",
+        "confidence": 0.7,
+        "cue": "",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 9,
+        "pA": 0.611,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.611,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 10,
+        "pA": 0.62,
+        "pB": 0.33,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "not_legible_yet",
+        "correct": false
+      },
+      {
+        "t": 11,
+        "pA": 0.62,
+        "pB": 0.33,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "not_legible_yet",
+        "correct": false
+      }
+    ],
+    "grid": [
+      {
+        "t": 0,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 1,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 2,
+        "pA": 0.662,
+        "pB": 1.0,
+        "choice": "B",
+        "confidence": 1.0,
+        "cue": "gripper aligned with left block\",",
+        "legible": "legible_now",
+        "correct": true
+      },
+      {
+        "t": 3,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 4,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 5,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 6,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 7,
+        "pA": 0.611,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.611,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 8,
+        "pA": 0.48,
+        "pB": 0.52,
+        "choice": null,
+        "confidence": 0.52,
+        "cue": "gripper aligned with left block",
+        "legible": "not_legible_yet",
+        "correct": null
+      },
+      {
+        "t": 9,
+        "pA": 0.611,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.611,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 10,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 11,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      }
+    ],
+    "vertical": [
+      {
+        "t": 0,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 1,
+        "pA": 0.611,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.611,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 2,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 3,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 4,
+        "pA": 0.62,
+        "pB": 0.333,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 5,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 6,
+        "pA": 0.662,
+        "pB": 1.0,
+        "choice": "B",
+        "confidence": 1.0,
+        "cue": "gripper aligned with left block\",",
+        "legible": "legible_now",
+        "correct": true
+      },
+      {
+        "t": 7,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 8,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 9,
+        "pA": 0.62,
+        "pB": 0.38,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 10,
+        "pA": 0.62,
+        "pB": 0.33,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "legible_now",
+        "correct": false
+      },
+      {
+        "t": 11,
+        "pA": 0.62,
+        "pB": 0.33,
+        "choice": "A",
+        "confidence": 0.62,
+        "cue": "gripper aligned with left block",
+        "legible": "not_legible_yet",
+        "correct": false
+      }
+    ]
+  },
+  "per_layout_summary": {
+    "horizontal": {
+      "correct": 0,
+      "incorrect": 12,
+      "uncertain": 0
+    },
+    "grid": {
+      "correct": 1,
+      "incorrect": 10,
+      "uncertain": 1
+    },
+    "vertical": {
+      "correct": 1,
+      "incorrect": 11,
+      "uncertain": 0
+    }
+  }
+}

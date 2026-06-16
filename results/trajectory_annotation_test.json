@@ -1,0 +1,108 @@
+{
+  "test_config": {
+    "method": "trajectory_annotation",
+    "layout": "horizontal",
+    "n_frames": 6,
+    "timestamps": [
+      3,
+      5,
+      7,
+      9
+    ]
+  },
+  "results": [
+    {
+      "video_id": "le_r_block",
+      "timestamp": 3,
+      "ground_truth": "B",
+      "predicted": null,
+      "correct": false,
+      "pA": 0.15,
+      "pB": 0.5,
+      "cue": "",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 5,
+      "ground_truth": "B",
+      "predicted": "B",
+      "correct": true,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 7,
+      "ground_truth": "B",
+      "predicted": "B",
+      "correct": true,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_r_block",
+      "timestamp": 9,
+      "ground_truth": "B",
+      "predicted": "B",
+      "correct": true,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 3,
+      "ground_truth": "A",
+      "predicted": "B",
+      "correct": false,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 5,
+      "ground_truth": "A",
+      "predicted": "B",
+      "correct": false,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 7,
+      "ground_truth": "A",
+      "predicted": "B",
+      "correct": false,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    },
+    {
+      "video_id": "le_l_block",
+      "timestamp": 9,
+      "ground_truth": "A",
+      "predicted": "B",
+      "correct": false,
+      "pA": 0.15,
+      "pB": 0.85,
+      "cue": "Thick arrow points toward RED goal region",
+      "legible": "not_legible_yet"
+    }
+  ],
+  "summary": {
+    "accuracy": 0.375,
+    "correct": 3,
+    "total": 8
+  }
+}

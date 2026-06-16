@@ -1,0 +1,162 @@
+[
+  {
+    "video_id": "le_l_block",
+    "prompt_version": "v1_simple",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "A",
+    "correct": true,
+    "status": "\u2713",
+    "response": "A) pick the left block"
+  },
+  {
+    "video_id": "le_r_block",
+    "prompt_version": "v1_simple",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "A",
+    "correct": false,
+    "status": "\u2717",
+    "response": "A) pick the left block"
+  },
+  {
+    "video_id": "amb_l_block",
+    "prompt_version": "v1_simple",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "A",
+    "correct": true,
+    "status": "\u2713",
+    "response": "A) pick the left block"
+  },
+  {
+    "video_id": "amb_r_block",
+    "prompt_version": "v1_simple",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "A",
+    "correct": false,
+    "status": "\u2717",
+    "response": "A) pick the left block"
+  },
+  {
+    "video_id": "le_l_block",
+    "prompt_version": "v2_describe_first",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "B",
+    "correct": false,
+    "status": "\u2717",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "le_r_block",
+    "prompt_version": "v2_describe_first",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "B",
+    "correct": true,
+    "status": "\u2713",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "amb_l_block",
+    "prompt_version": "v2_describe_first",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "B",
+    "correct": false,
+    "status": "\u2717",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "amb_r_block",
+    "prompt_version": "v2_describe_first",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "B",
+    "correct": true,
+    "status": "\u2713",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "le_l_block",
+    "prompt_version": "v3_explicit_spatial",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "A",
+    "correct": true,
+    "status": "\u2713",
+    "response": "A"
+  },
+  {
+    "video_id": "le_r_block",
+    "prompt_version": "v3_explicit_spatial",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "A",
+    "correct": false,
+    "status": "\u2717",
+    "response": "A"
+  },
+  {
+    "video_id": "amb_l_block",
+    "prompt_version": "v3_explicit_spatial",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "A",
+    "correct": true,
+    "status": "\u2713",
+    "response": "A"
+  },
+  {
+    "video_id": "amb_r_block",
+    "prompt_version": "v3_explicit_spatial",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "A",
+    "correct": false,
+    "status": "\u2717",
+    "response": "A"
+  },
+  {
+    "video_id": "le_l_block",
+    "prompt_version": "v4_chain_reasoning",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "B",
+    "correct": false,
+    "status": "\u2717",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "le_r_block",
+    "prompt_version": "v4_chain_reasoning",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "B",
+    "correct": true,
+    "status": "\u2713",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "amb_l_block",
+    "prompt_version": "v4_chain_reasoning",
+    "t": 5,
+    "goal_gt": "A",
+    "choice": "B",
+    "correct": false,
+    "status": "\u2717",
+    "response": "B) pick the right block"
+  },
+  {
+    "video_id": "amb_r_block",
+    "prompt_version": "v4_chain_reasoning",
+    "t": 5,
+    "goal_gt": "B",
+    "choice": "B",
+    "correct": true,
+    "status": "\u2713",
+    "response": "B) pick the right block"
+  }
+]
